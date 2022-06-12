@@ -16,14 +16,15 @@ function App() {
   return (
     <main className="App">
       <h1>Font Viewer</h1>
-      <Input theValue={handleChange} a={1}/>
+      <Input theValue={handleChange}/>
+      
       <Item theText = {text} font={'Verdana'} />
       <Item theText = {text} font={'Times New Roman'} />
-      <Item theText = {text} font={"san-serif"}/>
-      <Item theText = {text} font={"Comic Sans"}/>
-      <Item theText = {text} font={"Arial"}/>
-      <Item theText = {text} font={"Monaco"}/>
-      <Item theText = {text} font={"Roboto Mono"}/>
+      <Item theText = {text} font={'san-serif'}/>
+      <Item theText = {text} font={'Comic Sans'}/>
+      <Item theText = {text} font={'Arial'}/>
+      <Item theText = {text} font={'Monaco'}/>
+      <Item theText = {text} font={'Roboto Mono'}/>
     </main>
   );
 }
